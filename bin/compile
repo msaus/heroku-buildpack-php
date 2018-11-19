@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 # bin/compile <build-dir> <cache-dir> <env-dir>
+source $BP_DIR/bin/phalcon
 
 # fail hard
 set -o pipefail
